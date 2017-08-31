@@ -8,8 +8,8 @@ tilt_controller:
     motor:
         id: 1 
         init: 0 
-        min: -512
-        max:  512 
+        min:  0
+        max:  2048 
 
 pan_controller:
     controller:
@@ -21,6 +21,6 @@ pan_controller:
     motor:
         id: 2 
         init: 0 
-        min: -1024
-        max:  1024 
+        min:  0
+        max:  2048 
  
